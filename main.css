@@ -1,0 +1,91 @@
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.imgNorm {
+    height: 85%;
+    width: auto;
+    padding: 1%; 
+}
+.imgTop {
+    height:auto; 
+    width: 100%; 
+    padding: 1%;
+}
+.colSelImg {
+    text-align: center;
+    margin: auto; 
+    padding: 10px; 
+    height: 40%;
+}
+.colSelText {
+    text-align: center;
+    margin: auto; 
+    padding: 1%; 
+    height: 40%;
+}
+.mainCont{
+    width:75%;
+}
+body{
+    background-color: grey;
+}
+.enterPass{
+    background-color: darkgrey; 
+    border-radius: 5px;
+    width:50%;
+}
+.passScreenText{
+    font-size:1.8em;
+}
+
+@media screen and (max-width: 768px) {
+    .mobileHide{
+        display: none;
+    }
+    .makeMeWide{
+        width: 100%;
+    }
+    .mainCont{
+        width: 100%;
+    }
+    .mobileEm2{
+        font-size:1.1em;
+    }
+    img{
+        height:70%;
+    }
+    .colSelImg{
+        height: 20%;
+        width: 70%;
+    }
+    .colSelText{
+        height: 20%;
+        width: 30%;
+    }
+    .enterPass{
+        width:90%;
+        background-color: darkgrey; 
+        border-radius: 5px;
+    }
+    .passScreenText{
+        font-size:1.3em;
+    }
+}
